@@ -17,4 +17,4 @@ COPY --from=builder /app/target/*.jar  /app/expenseapp.jar
 
 EXPOSE 8080
 
-CMD ["java","-jar","/app/target/expenseapp.jar"]
+CMD ["java","-jar","expenseapp.jar"]
